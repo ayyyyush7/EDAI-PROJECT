@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "HTML",
+			"path": "C:/Users/ASUS/Documents/HTML"
+		},
+		{
+			"name": "C HAI BOSS",
+			"path": "C:/Users/ASUS/Documents/C HAI BOSS"
+		},
+		{
+			"name": "EDAI PROJECT",
+			"path": "."
+		},
+		{
+			"name": "animated login",
+			"path": "../animated login"
+		},
+		{
+			"name": "css tutorial",
+			"path": "../css tutorial"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EDAI PROJECT"
+	}
+}

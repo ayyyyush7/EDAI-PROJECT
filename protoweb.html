@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="website.css" />
+    <title>Finance Dashboard | MoneyManager</title>
+  </head>
+
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a href="#" class="logo">
+        <i class="bx bx-dollar-circle"></i>
+        <div class="logo-name"><span>Money</span>Manager</div>
+      </a>
+      <ul class="side-menu">
+        <li>
+          <a href="#"><i class="bx bxs-dashboard"></i>Dashboard</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-line-chart"></i>Financial Overview</a>
+        </li>
+        <li class="active">
+          <a href="#"><i class="bx bx-pie-chart-alt"></i>Expense Analysis</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-dollar"></i>Transactions</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-user"></i>Account</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bx-cog"></i>Settings</a>
+        </li>
+      </ul>
+      <ul class="side-menu">
+        <li>
+          <a href="#" class="logout">
+            <i class="bx bx-log-out-circle"></i>
+            Logout
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+      <!-- Navbar -->
+      <nav>
+        <i class="bx bx-menu"></i>
+        <form action="#">
+          <div class="form-input">
+            <input type="search" placeholder="Search..." />
+            <button class="search-btn" type="submit">
+              <i class="bx bx-search"></i>
+            </button>
+          </div>
+        </form>
+        <input type="checkbox" id="theme-toggle" hidden />
+        <label for="theme-toggle" class="theme-toggle"></label>
+        <a href="#" class="notif">
+          <i class="bx bx-bell"></i>
+          <span class="count">12</span>
+        </a>
+        <a href="#" class="profile">
+          <img src="images/user-avatar.png" alt="User Avatar" />
+        </a>
+      </nav>
+      <!-- End of Navbar -->
+
+      <main>
+        <!-- Header -->
+        <div class="header">
+          <div class="left">
+            <h1>Expense Analysis</h1>
+            <ul class="breadcrumb">
+              <li><a href="#">Financial Overview</a></li>
+
+              <li><a href="#" class="active">Expense Analysis</a></li>
+            </ul>
+          </div>
+          <a href="#" class="report">
+            <i class="bx bx-cloud-download"></i>
+            <span>Download Report</span>
+          </a>
+        </div>
+
+        <!-- Finance Insights -->
+        <ul class="finance-insights">
+          <!-- Add finance-related insights here -->
+        </ul>
+        <!-- End of Finance Insights -->
+
+        <!-- Finance Data -->
+        <div class="finance-data">
+          <!-- Recent Transactions -->
+          <div class="transactions">
+            <div class="header">
+              <i class="bx bx-dollar"></i>
+              <h3>Recent Transactions</h3>
+              <i class="bx bx-filter"></i>
+              <i class="bx bx-search"></i>
+            </div>
+            <table>
+              <!-- Transaction table content goes here -->
+            </table>
+          </div>
+
+          <!-- Budget Overview -->
+          <div class="budget">
+            <div class="header">
+              <i class="bx bx-wallet"></i>
+              <h3>Budget Overview</h3>
+              <i class="bx bx-filter"></i>
+              <i class="bx bx-plus"></i>
+            </div>
+            <ul class="budget-list">
+              <!-- Budget list items go here -->
+            </ul>
+          </div>
+          <!-- End of Budget Overview -->
+        </div>
+        <!-- End of Finance Data -->
+      </main>
+    </div>
+
+    <script src="website.js"></script>
+  </body>
+</html>
