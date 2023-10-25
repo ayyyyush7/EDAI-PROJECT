@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EDAI SIGNUP PAGE</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="createaccounttrial.css" />
+</head>
+<body>
+  <div class="box-form">
+    <div class="left">
+      <h5>Sign Up</h5>
+      <p>Already have an account? <a href="#" onclick="redirectToLogin()">Login</a></p>
+
+      <div class="inputs">
+        <input type="email" id="email" placeholder="email" required>
+        <input type="text" id="username" placeholder="Username" required />
+        <br />
+        <input type="password" id="password" placeholder="Password" required />
+        <br />
+      </div>
+      <br />
+      <button type="button" onclick="signup()">Sign Up</button>
+    </div>
+    <div class="right">
+      <img src="money.jpg" alt="Signup Image" />
+    </div>
+  </div>
+  <script src="createaccounttraial.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
