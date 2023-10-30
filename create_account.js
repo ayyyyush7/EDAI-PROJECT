@@ -14,6 +14,9 @@ function newaccount() {
     console.log('Email:', email);
     console.log('Password:', password);
 
-    // Redirect to loginperfection.html
     window.location.href = 'loginperfection.html';
 }
+
+function redirectToLogin() {
+    window.location.href = 'loginperfection.html';
+  }

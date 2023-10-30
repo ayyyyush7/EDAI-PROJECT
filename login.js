@@ -21,7 +21,7 @@ function loginWithGoogle() {
 }
 
 function redirectToCreateAccount() {
-  window.location.href = 'createaccounttrial.html';
+  window.location.href = 'create_account.html';
 }
 
 function togglePassword() {
